@@ -17,7 +17,7 @@ spec:
         - name: argo-http-echo
           image: registry.my-k8s-cluster.com/my-http-echo
           args:
-            - "-text=hello, argo."
+            - "-text=hello, argo v2."
           imagePullPolicy: Always
           ports:
             - containerPort: 5678
