@@ -1,0 +1,9 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: argo-http-echo-service
+spec:
+  selector:
+    app: argo-http-echo
+  ports:
+    - port: 5678
